@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+/* bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -7,9 +7,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(157, 163, 163);
+  background: linear-gradient(
+    90deg,
+    rgba(157, 163, 163, 1) 0%,
+    rgba(148, 187, 233, 1) 55%
+  );
+  cursor: default;
 }
